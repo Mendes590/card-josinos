@@ -40,7 +40,7 @@ body::before {
 .profile-card {
   border-radius: 50px;
   width: 120%;
-  height: 2250px;
+  height: 2350px;
   position: relative;
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
