@@ -14,7 +14,8 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: url(bg.jpg) no-repeat center;
+  background: url(barber.jpg) no-repeat center;
+  filter: blur(10px);
   background-size: cover;
   -webkit-animation: backgroundZoomAnimate 20s forwards;
           animation: backgroundZoomAnimate 20s forwards;
@@ -42,9 +43,8 @@ body::before {
   width: 120%;
   height: 2300px;
   position: relative;
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-  border: 2px solid rgba(255, 255, 255, 0.2509803922);
+  -webkit-backdrop-filter: blur(12 px);
+          backdrop-filter: blur(12 px);
   padding: 15rem 10rem;
   display: flex;
   flex-direction: column;
@@ -152,7 +152,7 @@ body::before {
 .profile-card__actions > a > button {
   font-weight: bold;
   font-size: 50px;
-  padding: 18px 0px;
+  padding: 20px 0px;
   min-width: 450px;
   border-radius: 60px;
   text-align: center;
