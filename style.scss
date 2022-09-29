@@ -17,7 +17,7 @@ body{
         z-index:-1;
         pointer-events: none;
         background: url(barber.jpg) no-repeat center;
-        filter: blur(10px);
+        filter: blur(12px);
         background-size: cover;
         animation: backgroundZoomAnimate 20s forwards;
     }
@@ -139,10 +139,7 @@ body{
                     background: linear-gradient(to right, #b8860b, #b8860b);
                    
                 }
-                &.email {
-                    background: linear-gradient(#b8860b , #b8860b);
-                   
-                }
+               
                 &.instagram {
                     background: linear-gradient(#b8860b,#b8860b);
                     

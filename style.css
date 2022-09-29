@@ -15,7 +15,7 @@ body::before {
   z-index: -1;
   pointer-events: none;
   background: url(barber.jpg) no-repeat center;
-  filter: blur(10px);
+  filter: blur(12px);
   background-size: cover;
   -webkit-animation: backgroundZoomAnimate 20s forwards;
           animation: backgroundZoomAnimate 20s forwards;
@@ -132,9 +132,6 @@ body::before {
   }
   .profile-card a.telefone {
     background: linear-gradient(to right, #b8860b, #b8860b);
-  }
-  .profile-card a.email {
-    background: linear-gradient(#b8860b, #b8860b);
   }
   .profile-card a.instagram {
     background: linear-gradient(#b8860b, #b8860b);
